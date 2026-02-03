@@ -126,11 +126,11 @@ N'hésite pas à partager tes réussites et difficultés !
 
 ## 📈 Progression personnelle
 
-**Date de début** : _________
+**Date de début** : 03/02/2026
 
 **Module actuel** : Module 1.1 - HTML
 
-**Temps investi** : _____ heures
+**Temps investi** : 0 heures
 
 **Features complétées** : 0 / 150+
 
