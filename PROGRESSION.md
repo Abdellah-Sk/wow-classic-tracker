@@ -8,7 +8,7 @@
 ## 🎯 PHASE 1 : FONDATIONS WEB (Semaines 1-8)
 
 ### ✅ MODULE 1.1 - HTML : Structure et Sémantique (Semaine 1)
-- [ ] Jour 1-2 : Page d'accueil (index.html)
+- [x] Jour 1-2 : Page d'accueil (index.html)
 - [ ] Jour 3-4 : Page liste personnages (characters.html)
 - [ ] Jour 5-7 : Page détail personnage (character-detail.html)
 - [ ] ✅ Validation : 3 pages HTML bien structurées
