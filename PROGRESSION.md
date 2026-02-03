@@ -1,6 +1,6 @@
 # 📈 PROGRESSION - WoW Classic Tracker Dev Journey
 
-**Date de début** : _________
+**Date de début** : 03/02/2026
 **Objectif** : Devenir développeur web en 6-9 mois
 
 ---
