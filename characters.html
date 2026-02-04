@@ -20,7 +20,6 @@
     </header>
     <main>
         <section>
-            <h2>Liste</h2>
             <table>
                 <thead>
                     <tr>
@@ -46,8 +45,69 @@
                         <td>Alliance</td>
                         <td>Thunderstrike</td>
                     </tr>
+                    <tr>
+                        <td>Manu</td>
+                        <td>Paladin</td>
+                        <td>60</td>
+                        <td>Alliance</td>
+                        <td>Thunderstrike</td>
+                    </tr>
+                    <tr>
+                        <td>Méluch</td>
+                        <td>Voleur</td>
+                        <td>60</td>
+                        <td>Alliance</td>
+                        <td>Thunderstrike</td>
+                    </tr>
+                    <tr>
+                        <td>Donald</td>
+                        <td>Prêtre</td>
+                        <td>6</td>
+                        <td>Alliance</td>
+                        <td>Thunderstrike</td>
+                    </tr>
                 </tbody>
             </table>
+        </section>
+
+        <section>
+            <form action="" method="">
+                <div>
+                    <label for="name">Nom du personnage</label>
+                    <input type="text" id="name" name="" required>
+                </div>
+                <div>
+                    <label for="classe">Classe</label>
+                    <select type="name" id="classe" name="" required>
+                        <option value="war">Guerrier</option>
+                        <option value="paladin">Paladin</option>
+                        <option value="hunter">Chasseur</option>
+                        <option value="shaman">Chaman</option>
+                        <option value="rogue">Voleur</option>
+                        <option value="mage">Mage</option>
+                        <option value="warlock">Démoniste</option>
+                        <option value="priest">Prêtre</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="level">Niveau</label>
+                    <input type="number" id="level" name="" required min="1" max="70">
+                </div>
+                <div>
+                    <label for="faction">Faction</label>
+                    <select type="name" id="faction" name="" required>
+                        <option value="horde">Horde</option>
+                        <option value="alliance">Alliance</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="server">Serveur</label>
+                    <input name="text" id="server" name="" required>
+                </div>
+                <div>
+                    <button type="submit">Enregistrer</button>
+                </div>
+            </form>
         </section>
     </main>
 </body>
