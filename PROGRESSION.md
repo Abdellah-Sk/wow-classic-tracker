@@ -9,7 +9,7 @@
 
 ### ✅ MODULE 1.1 - HTML : Structure et Sémantique (Semaine 1)
 - [x] Jour 1-2 : Page d'accueil (index.html)
-- [ ] Jour 3-4 : Page liste personnages (characters.html)
+- [x] Jour 3-4 : Page liste personnages (characters.html)
 - [ ] Jour 5-7 : Page détail personnage (character-detail.html)
 - [ ] ✅ Validation : 3 pages HTML bien structurées
 - [ ] 🎮 **v0.1 déployée** - Structure HTML visible
