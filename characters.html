@@ -74,11 +74,12 @@
             <form action="" method="">
                 <div>
                     <label for="name">Nom du personnage</label>
-                    <input type="text" id="name" name="" required>
+                    <input type="text" id="name" name="name" required>
                 </div>
                 <div>
                     <label for="classe">Classe</label>
-                    <select type="name" id="classe" name="" required>
+                    <select type="name" id="classe" name="classe" required>
+                        <option value="">-- Choisir une classe --</option>
                         <option value="war">Guerrier</option>
                         <option value="paladin">Paladin</option>
                         <option value="hunter">Chasseur</option>
@@ -91,18 +92,20 @@
                 </div>
                 <div>
                     <label for="level">Niveau</label>
-                    <input type="number" id="level" name="" required min="1" max="70">
+                    <input type="number" id="level" name="level" required min="1" max="70">
                 </div>
                 <div>
-                    <label for="faction">Faction</label>
-                    <select type="name" id="faction" name="" required>
-                        <option value="horde">Horde</option>
-                        <option value="alliance">Alliance</option>
-                    </select>
+                    <label>Faction</label>
+
+                    <input type="radio" id="alliance" name="faction" value="alliance" required>
+                    <label for="alliance">Alliance</label>
+
+                    <input type="radio" id="horde" name="faction" value="horde" required>
+                    <label for="horde">Horde</label>
                 </div>
                 <div>
                     <label for="server">Serveur</label>
-                    <input name="text" id="server" name="" required>
+                    <input type="text" id="server" name="server" required>
                 </div>
                 <div>
                     <button type="submit">Enregistrer</button>
@@ -110,6 +113,9 @@
             </form>
         </section>
     </main>
+    <footer>
+        <p>&copy; 2026 - WoW Classic Tracker</p>
+    </footer>
 </body>
 
 </html>
